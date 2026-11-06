@@ -1,0 +1,6 @@
+{
+  "name": "Birthday Wish Tree - Blooming Heart Tree Greeting",
+  "description": "An interactive romantic birthday greeting featuring an animated blooming pink tree forming a heart-shaped canopy with colorful heart leaves, typewriter wish, and ambient music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

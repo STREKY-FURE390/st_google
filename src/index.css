@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-romantic {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-garamond {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-handwriting {
+    font-family: 'Caveat', cursive;
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+.animate-float-gentle {
+  animation: floatGentle 5s ease-in-out infinite;
+}
+
+/* Custom smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
